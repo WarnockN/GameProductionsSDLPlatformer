@@ -9,8 +9,8 @@ Player::~Player() {
 
 }
 
-void Player::UpdateInput(Window* window, Vec3 pos) {
-	if () {
-	
+void Player::UpdateInput(SDL_Event &event) {
+	while (SDL_PollEvent(&event)) {
+		
 	}
 }

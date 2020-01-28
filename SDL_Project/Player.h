@@ -18,7 +18,7 @@ public:
 	Player();
 	~Player();
 
-	void UpdateInput(Window* window, Vec3 pos);
+	void UpdateInput(SDL_Event &event);
 
 };
 
